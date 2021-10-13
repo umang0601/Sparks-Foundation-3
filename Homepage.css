@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oxygen&display=swap');
+header{
+    
+    position: relative;
+}
+
+body {
+    background: url("../Task3-Sparks/pexels-namo-deet-1098769.jpg") no-repeat center center/cover;
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+
+
+nav{
+    width: 100%;
+    height: 14vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    
+    
+}
+
+
+.logo h1{
+  color: white;
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: 'Fira Sans', sans-serif;
+} 
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+
+
+
+.menu li a:hover{
+    border-bottom: 3px solid white;
+}
+.donate_btn a{
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0093E9;
+    padding: 12px 26px;
+    font-style: 12px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    border-radius: 2rem;
+}
+.donate_btn a:hover{
+    background-color: #008B8B;
+    color: black;
+}
+
+
+
+.content {
+    
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    
+}
+
+
+
+
+.content h1 {
+    
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+    z-index: 1;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: 300;
+    z-index: 1;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif; 
+    color: white;
+}
+
+.platforms {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    
+}
+
+.fa_icons {
+    width: 78px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 10px;
+}
+
+
+
+
+.fa_icons img{
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fa_icons img:hover{
+    
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transition-duration: 0.2s;
+    
+}
+
+
+
+
+
+     
